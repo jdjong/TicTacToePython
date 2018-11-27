@@ -29,7 +29,7 @@ def test_player1_is_winner(player1WinningInputSequence):
 @pytest.mark.parametrize(
     'player2WinningInputSequence', [
         ["2", "1", "3", "4", "5", "8", "9", "7"],
-        ["1", "2", "4", "5", "9", "8"],
+        ["1", "2", "4", "5", "9", "7"],
     ]
 )
 def test_player2_is_winner(player2WinningInputSequence):
